@@ -1,0 +1,111 @@
+version: "2.0"
+nlu:
+
+
+# - intent: kasih_nama
+#   examples: |
+#     - wahyu
+#     - khusnul
+#     - rido
+    
+
+- intent: menyapa
+  examples: |
+    - hai
+    - hallo
+    - hey
+    - assalamualaikum
+    - permisi
+    - selamat pagi
+    - selamat siang
+    - selamat malam
+    - p
+    - hi
+    - horas
+
+- intent: tolak
+  examples: |
+    - tidak
+    - nggak
+    - gak 
+    - ga
+    - g
+    - no
+    - gk 
+    - cukup
+    - sudah
+
+- intent: terima
+  examples: |
+    - iya
+    - ya 
+    - y
+    - yes
+    - ada
+
+- intent: tanda_titik_dua
+  examples: |
+    - titik dua
+    - saya memilih titik dua
+    - pilih titik dua 
+
+- intent: fungsi_tanda_titik_dua
+  examples: |
+    - fungsi 
+    - fungsi tanda titik dua  
+
+- intent: contoh_tanda_titik_dua
+  examples: |
+    - contoh
+    - contoh tanda titik dua 
+
+- intent: tanda_hubung
+  examples: |
+    - tanda hubung
+    - memilih tanda hubung
+    - pilih tanda hubung
+
+- intent: fungsi_tanda_hubung
+  examples: |
+    - fungsi
+    - fungsi tanda hubung 
+
+- intent: contoh_tanda_hubung
+  examples: |
+    - contoh 
+    - contoh tanda titik dua
+
+- intent: tanda_pisah
+  examples: |
+    - tanda pisah
+    - memilih tanda pisah
+    - pilih tanda pisah
+
+- intent: fungsi_tanda_pisah
+  examples: |
+    - fungsi tanda pisah
+    - fungsi
+
+- intent: contoh_tanda_pisah
+  examples: |
+    - contoh
+    - contoh tada pisah
+
+- intent: tandatanya
+  examples: |
+    - tanda tanya
+    - memilih tanda tanya
+    - pilih tanda tanya
+
+- intent: fungsi_tanda_tanya
+  examples: |
+    - fungsi tanda tanya
+    - fungsi
+
+- intent: contoh_tanda_tanya
+  examples: |
+    - contoh tanda tanya 
+    - contoh 
+
+
+  

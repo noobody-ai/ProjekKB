@@ -1,0 +1,133 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- menyapa:
+    use_entities: true
+- tolak:
+    use_entities: true
+- terima:
+    use_entities: true
+- tanda_titik_dua:
+    use_entities: true
+- fungsi_tanda_titik_dua:
+    use_entities: true
+- contoh_tanda_titik_dua:
+    use_entities: true
+- tanda_hubung:
+    use_entities: true
+- fungsi_tanda_hubung:
+    use_entities: true
+- contoh_tanda_hubung:
+    use_entities: true
+- tanda_pisah:
+    use_entities: true
+- fungsi_tanda_pisah:
+    use_entities: true
+- contoh_tanda_pisah:
+    use_entities: true
+- tandatanya:
+    use_entities: true
+- fungsi_tanda_tanya:
+    use_entities: true
+- contoh_tanda_tanya:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: |2-
+       Hallo Saya Ubot, Ada yang bisa Saya bantu? Saya dapat membantu anda dalam memberikan contoh dan fungsi penggunaaan tanda baca 
+       Berikut list yang dapat Saya bantu
+       1). Tanda Titik Dua 
+       2). Tanda Hubung  
+       3). Tanda Pisah  
+       4). Tanda Tanya  
+       Silahan pilih salah satu topik
+  utter_bye:
+  - text: Terimakasih telah menggunakan layanan Ubot Tanda Baca Sampai Jumpa Lagi
+  utter_tandatitikdua:
+  - text: |-
+      Anda telah memilih bagian Tanda Titik Dua 
+      Silahkan memilih sub menu Tanda Baca berikut.. 
+      1). Fungsi Tanda Titik Dua  
+      2). Contoh Tanda Titik Dua  
+      Silahkan pilih salah satu
+  utter_fungsi_tanda_titik_dua:
+  - text: |-
+      Fungsi Tanda Titik Dua adalah : 
+       Tanda titik dua dipakai pada akhir suatu pernyataan lengkap yang diikuti pemerincian atau penjelasan, dipakai sesudah kata atau ungkapan yang memerlukan pemerian, dipakai dalam naskah drama sesudah kata yang menunjukkan pelaku dalam percakapan, serta dipakai di antara (a) jilid atau nomor dan halaman, (b) surah dan ayat dalam kitab suci, (c) judul dan anak judul suatu karangan, serta (d) nama kota dan penerbit dalam daftar pustaka.  
+       
+       Apakah ada yang bisa saya bantu lagi?
+  utter_contoh_tanda_titik_dua:
+  - text: |-
+      Contoh penerapan Tanda Titik Dua adalah : 
+       Budi membeli perlengkapan sekolah, yaitu  : Buku, Tas, dan Sepatu. 
+       
+       Apakah ada yang bisa saya bantu lagi?
+  utter_tandahubung:
+  - text: |-
+      Anda telah memilih Tanda Hubung 
+       Silahkan memilih sub menu Tanda Hubung berikut.. 
+       1). Fungsi Tanda Hubung  
+       2). Contoh Tanda Hubung  
+       Silahkan pilih salah satu
+  utter_fungsi_tanda_hubung:
+  - text: |2-
+       Fungsi Tanda Hubung adalah : 
+       digunakan untuk menyambung suku kata yang terpisah atau terpenggal oleh pergantian baris.  
+       
+       Apakah ada yang bisa saya bantu lagi?
+  utter_contoh_tanda_hubung:
+  - text: |-
+      Contoh penerapan Tanda Hubung adalah : 
+       ber-evolusi.  
+       
+       meng-ukur.
+  utter_tanda_pisah:
+  - text: |-
+      Anda telah memilih Tanda Pisah 
+       Silahkan memilih sub menu Tanda Pisah berikut.. 
+       1). Fungsi Tanda Pisah  
+       2). Contoh Tanda Pisah  
+       Silahkan pilih salah satu
+  utter_fungsi_tanda_pisah:
+  - text: |2-
+       Fungsi Tanda Pisah adalah : 
+       Tanda pisah dapat digunakan sebagai penanda jika ingin menyisipkan suatu kata maupun kalimat yang memberikan penjelasan di luar bangun kalimat  
+       
+       Apakah ada yang bisa saya bantu lagi?
+  utter_contoh_tanda_pisah:
+  - text: |-
+      Contoh penerapan Tanda Pisah adalah : 
+       Saudaraku – Dewi dan Adam – akan berkunjung akhir bulan ini.  
+       
+       Apakah ada yang bisa saya bantu lagi?
+  utter_tanda_tanya:
+  - text: |-
+      Anda telah memilih Tanda Tanya 
+       Silahkan memilih sub menu Tanda Tanya berikut.. 
+       1). Fungsi Tanda Tanya  
+       2). Contoh Tanda Tanya  
+       Silahkan pilih salah satu
+  utter_fungsi_tanda_tanya:
+  - text: |-
+      Fungsi Tanda Tanya adalah : 
+       Tanda tanya dipakai di dalam tanda kurung untuk menyatakan bagian kalimat yang disangsikan atau yang kurang dapat dibuktikan kebenarannya.  
+       
+       Tanda Tanya juga dipakai pada akhir kalimat tanya 
+       Apakah ada yang bisa saya bantu lagi?
+  utter_contoh_tanda_tanya:
+  - text: |-
+      Contoh penerapan Tanda Tanya adalah : 
+       Monumen Nasional mulai dibangun pada tahun 1961 (?).  
+       
+
+      Kapan Hari Pendidikan Nasional diperingati? 
+       Apakah ada yang bisa saya bantu lagi?
+actions: []
+forms: {}
+e2e_actions: []

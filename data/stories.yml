@@ -1,0 +1,243 @@
+version: "2.0"
+
+stories:
+
+- story: welcome
+  steps :
+    - intent: menyapa
+    - action: utter_greet
+
+- story: ulang
+  steps :
+    - intent: terima
+    - action: utter_greet
+
+- story: tolak
+  steps :
+    - intent: tolak
+    - action: utter_bye
+
+- story: tanda titik dua fungsi
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_titik_dua
+    - action: utter_tandatitikdua
+    - intent: fungsi_tanda_titik_dua
+    - action: utter_fungsi_tanda_titik_dua
+    - intent: tolak
+    - action: utter_bye
+
+- story: tanda titik dua fungsi ulang
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_titik_dua
+    - action: utter_tandatitikdua
+    - intent: fungsi_tanda_titik_dua
+    - action: utter_fungsi_tanda_titik_dua
+    - intent: terima
+    - action: utter_greet
+
+- story: tanda titik dua contoh
+  steps:
+    # # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_titik_dua
+    - action: utter_tandatitikdua
+    - intent: contoh_tanda_titik_dua
+    - action: utter_contoh_tanda_titik_dua
+    - intent: tolak
+    - action: utter_bye
+
+- story: tanda titik dua contoh ulang
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_titik_dua
+    - action: utter_tandatitikdua
+    - intent: contoh_tanda_titik_dua
+    - action: utter_contoh_tanda_titik_dua
+    - intent: terima
+    - action: utter_greet
+
+- story: tanda hubung fungsi
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_hubung
+    - action: utter_tandahubung
+    - intent: fungsi_tanda_hubung
+    - action: utter_fungsi_tanda_hubung
+    - intent: tolak
+    - action: utter_bye
+
+- story: tanda hubung fungsi ulang
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_hubung
+    - action: utter_tandahubung
+    - intent: fungsi_tanda_hubung
+    - action: utter_fungsi_tanda_hubung
+    - intent: terima
+    - action: utter_greet
+
+- story: tanda hubung contoh 
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_hubung
+    - action: utter_tandahubung
+    - intent: contoh_tanda_hubung
+    - action: utter_contoh_tanda_hubung
+    - intent: tolak
+    - action: utter_bye
+
+- story: tanda hubung contoh ulang
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_hubung
+    - action: utter_tandahubung
+    - intent: contoh_tanda_hubung
+    - action: utter_contoh_tanda_hubung
+    - intent: terima
+    - action: utter_greet
+
+- story: tanda pisah fungsi
+  steps:
+    # # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_pisah
+    - action: utter_tanda_pisah
+    - intent: fungsi_tanda_pisah
+    - action: utter_fungsi_tanda_pisah
+    - intent: tolak
+    - action: utter_bye
+
+- story: tanda pisah fungsi ulang
+  steps:
+    # # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_pisah
+    - action: utter_tanda_pisah
+    - intent: fungsi_tanda_pisah
+    - action: utter_fungsi_tanda_pisah
+    - intent: terima
+    - action: utter_greet
+
+- story: tanda pisah contoh
+  steps:
+    # # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_pisah
+    - action: utter_tanda_pisah
+    - intent: contoh_tanda_pisah
+    - action: utter_contoh_tanda_pisah
+    - intent: tolak
+    - action: utter_bye
+
+- story: tanda pisah contoh ulang
+  steps:
+    # # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tanda_pisah
+    - action: utter_tanda_pisah
+    - intent: contoh_tanda_pisah
+    - action: utter_contoh_tanda_pisah
+    - intent: terima
+    - action: utter_greet
+
+- story: tanda tanya fungsi
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tandatanya
+    - action: utter_tanda_tanya
+    - intent: fungsi_tanda_tanya
+    - action: utter_fungsi_tanda_tanya
+    - intent: tolak
+    - action: utter_bye
+
+- story: tanda tanya fungsi ulang
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tandatanya
+    - action: utter_tanda_tanya
+    - intent: fungsi_tanda_tanya
+    - action: utter_fungsi_tanda_tanya
+    - intent: terima
+    - action: utter_greet
+
+- story: tanda tanya contoh
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tandatanya
+    - action: utter_tanda_tanya
+    - intent: contoh_tanda_tanya
+    - action: utter_contoh_tanda_tanya
+    - intent: tolak
+    - action: utter_bye
+
+- story: tanda tanya contoh ulang
+  steps:
+    # - action: utter_welcome
+    # - intent: kasih_nama
+    # - action: utter_datang
+    - intent: menyapa
+    - action: utter_greet
+    - intent: tandatanya
+    - action: utter_tanda_tanya
+    - intent: contoh_tanda_tanya
+    - action: utter_contoh_tanda_tanya
+    - intent: terima
+    - action: utter_greet
+
